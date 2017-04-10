@@ -1,6 +1,6 @@
 Title: An overview of 0.2 protocol : transactions
 Date: 2016-04-04
-Category: Technique
+Category: Technical
 Tags: transactions, protocol
 Slug: transactions-0-2-overview
 Authors: inso

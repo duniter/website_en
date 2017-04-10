@@ -1,7 +1,7 @@
 Title: Introducing members management
 Date: 2016-05-13
-Category: Toile de confiance
-Tags: wot, toile de confiance
+Category: Web of Trust
+Tags: wot
 Slug: introduction-a-la-toile-de-confiance
 Authors: greyzlii
 Thumbnail: /images/network.svg

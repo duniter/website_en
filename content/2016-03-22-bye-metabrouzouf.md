@@ -1,6 +1,6 @@
 Title: The Meta_Brouzouf experiment is over!
 Date: 2016-03-22
-Category: Technique
+Category: Technical
 Tags: Technical
 Slug: bye-metabrouzouf
 Authors: cgeek

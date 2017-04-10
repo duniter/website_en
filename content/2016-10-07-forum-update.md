@@ -1,6 +1,6 @@
 Title: Forum update
 Date: 2016-10-07
-Category: Divers
+Category: Misc
 Tags: forum
 Slug: forum-update
 Authors: cgeek

@@ -1,4 +1,4 @@
-Title: Crédits
+Title: Credits
 Date: 2017-03-29
 Slug: credits
 Authors: cgeek

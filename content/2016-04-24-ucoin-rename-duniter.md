@@ -1,6 +1,6 @@
 Title: uCoin becomes Duniter!
 Date: 2016-04-24
-Category: Divers
+Category: Misc
 Tags: uCoin
 Slug: ucoin-rename-duniter
 Authors: cgeek

@@ -13,7 +13,7 @@ Its code is fully availablge on a GitHub repository [github.com/duniter/website_
 
 ## Images used on this site
 
-Some logos and imagaes are the production of other people, you can find their origin on the [Crédits](/credits) page.
+Some logos and imagaes are the production of other people, you can find their origin on the [Credits](/credits) page.
 
 ## Who are we?
 
