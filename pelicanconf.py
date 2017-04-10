@@ -69,7 +69,7 @@ ACCEPTED_MENUS = ['presentation',
          'contribute',
          'contact',
          'wiki',
-         'a-propos',]
+         'about',]
 
 SOCIAL = (('Forum', 'https://forum.duniter.org', 'comment'),
           ('Salon XMPP', 'https://chat.duniter.org', 'comments'),
