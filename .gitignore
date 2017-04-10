@@ -1,0 +1,15 @@
+.idea/
+__pycache__/
+bin/
+include/
+lib/
+local/
+output/
+pelican-plugins/
+pelican.pid
+pelicanconf.pyc
+pip-selfcheck.json
+publishconf.pyc
+share/
+srv.pid
+*.pyc
