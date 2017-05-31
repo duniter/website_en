@@ -65,14 +65,14 @@ LINKS = (('duniter.org', 'https://duniter.org/'),
 
 # Social widget
 ACCEPTED_MENUS = ['presentation',
-         'obtenir-des-g1',
+         'get-g1',
          'contribuer',
          'contact',
          'wiki',
          'a-propos',]
 
 SOCIAL = (('Forum', 'https://forum.duniter.org', 'comment'),
-          ('Salon XMPP', 'https://chat.duniter.org', 'comments'),
+          ('XMPP Chatroom', 'https://chat.duniter.org', 'comments'),
           ('Bugs', '/wiki/rapporter-un-bug', 'bug'),
           ('Twitter', 'https://twitter.com/duniter'),
           ('GitHub', 'https://github.com/duniter'),

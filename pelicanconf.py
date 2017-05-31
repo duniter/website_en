@@ -65,15 +65,15 @@ LINKS = (('duniter.org', 'https://duniter.org/'),
 
 # Social widget
 ACCEPTED_MENUS = ['presentation',
-         'obtenir-des-g1',
+         'get-g1',
          'contribute',
          'contact',
          'wiki',
          'about',]
 
 SOCIAL = (('Forum', 'https://forum.duniter.org', 'comment'),
-          ('Salon XMPP', 'https://chat.duniter.org', 'comments'),
-          ('Bugs', '/wiki/rapporter-un-bug', 'bug'),
+          ('XMPP Chatroom', 'https://chat.duniter.org', 'comments'),
+          ('Bugs', '/wiki/report-a-bug', 'bug'),
           ('Twitter', 'https://twitter.com/duniter'),
           ('GitHub', 'https://github.com/duniter'),
           ('Diaspora', 'https://framasphere.org/people/1949ee70f6bc0134e6b32a0000053625', 'asterisk'),
