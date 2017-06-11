@@ -1,34 +1,30 @@
-Title: Rémunération des calculateurs
+Title: Pay back of nodes owners
 Order: 2
 Date: 2017-04-10
-Slug: theorie
+Slug: theory
 Authors: inso
 
-Dans Duniter, à la différence des cryptomonnaies usuelles, le réseau n'intègre pas de *taxe* sur les transactions.
-La raison est qu'il faut éviter de mélanger les sujets. Afin de rester simple, la base technique (la blockchain, 
-le réseau P2P) ne devrait pas intégrer les moyens de rémunérer ceux qui hébergent les noeuds.
+In Duniter, unlike the usual cryptocurrencies, the network does not include a transaction tax.
+The reason is that we think we should avoid mixing topics. In order to remain simple, the technical base (the blockchain, The P2P network) should not incorporate the means to compensate those who host the nodes.
 
-## Pourquoi devrais-je faire tourner un nœud ?
+## Why should I host a node ?
 
-Pour la même raison que vous partagez des fichiers torrents sans attendre de rémunération en retour ! Simplement
-pour faire vivre le réseau. Il y a plusieurs facteurs à prendre en compte :
+For the same reason that you share torrent files without waiting for pay back! Simply to support the network. There are several factors to consider:
 
-**Le calcul de bloc dans Duniter ne coûte presque rien.** Ce qui sécurise la blockchain est le fait que chaque calculateur
-est explicitement associé à un être humain. Ainsi, pas de risque d'attaque Sybil, et il n'y a aucune course à la
-puissance nécessaire !
+**The block calculation in Duniter costs almost nothing.** What secures the blockchain is the fact that each calculator is explicitly associated with a human being. Thus, there is no risk of Sybil attacks, and there is no power race needed!
 
-> Tant que votre PC est dans la moyenne des puissances existantes (environ du Raspberry Pi au PC 4 cœurs), votre nœud pourra participer au calcul des blocs.
+> As long as your PC is in the average of the existing powers (from Raspberry Pi to the 4-core PC), your node can participate in the computation of the blocks.
 
-**Vous ne devriez pas attendre que d'autres membres calculent pour vous.** Exécuter votre nœud, c'est vous qui assurer que le 
-réseau respecte les règles communes inscrites dans la blockchain. Ce nœud s'assurera pour vous que les Dividendes
-Universels sont correctements générés, et que les transactions sont transmises.
+**You should not wait for other members to calculate for you.** Running your node, you ensure that the
+network complies with the common rules in the blockchain. This node will ensure for you that the Universals Dividends
+ are properly generated, and that transactions are transmitted.
 
-## Quand même, il n'y a vraiment aucune rémunération envisagée pour partager son nœud avec le réseau ?
+## Still, there is really no remuneration envisaged to share its node with the network?
 
-Aujourd'hui, le calcul des blocs peut être rémunéré par le service [Remuniter](https://remuniter.cgeek.fr/#/). Le fonctionnement est simple : les utilisateurs peuvent transférer de la monnaie sur la clé de Remuniter, et le service va se charger de distribuer la monnaie reçue aux calculateurs.
+Today, the block computation can be remunerated by the [Remuniter](https://remuniter.cgeek.fr/#/) service . The operation is simple: users can transfer money on the key of Remuniter, and the service will be responsible for distributing the units received to the calculators.
  
 ![RemuniterScreenshot](../../images/wiki/remuniter.png)
 
-À terme, l'économie Duniter se développera par elle-même et inventera ses solutions par-dessus le calcul des blocs. Par exemple, on peut envisager une société qui accepterait de ne calculer des blocs contenant des transactions d'utilisateurs que s'ils ont envoyé de la monnaie à cette société. Elle calculerait alors des blocs contenant la transaction de l'utilisateur ainsi que le paiement requis pour la transaction.
+Eventually, the Duniter economy will develop by itself and invent its solutions over the block computation. For example, we could imagine a company that would accept to compute blocks containing user transactions only if they sent money to that company. It would then compute blocks containing the user's transaction as well as the payment required for the transaction.
 
-Il faut noter que cet élément **économique** se serait alors bien effectué **par-dessus le protocole technique**. Celui-ci est neutre, et n'induit par défaut aucun comportement particulier vis-à-vis de l'activité de calcul des blocs.
+It should be noted that this **economic** element would then have performed well **over the technical protocol**. This one is neutral, and by default does not induce any particular behavior with respect to the activity of blocks computation.

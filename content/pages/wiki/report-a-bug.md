@@ -1,38 +1,38 @@
-Title: Rapporter un bug
+Title: Report a bug
 Order: 9
 Date: 2017-03-27
-Slug: rapporter-un-bug
+Slug: report-a-bug
 Authors: cgeek
 
-Il se peut que vous détectiez un bug sur l'une des applications de Duniter ! Si c'est le cas, **merci de rédiger un rapport de bug**, comme expliqué ci-après.
+You may be able to detect a bug on one of Duniter's applications! If so, **please write a bug report**, as explained below.
 
-### Sur GitHub
+### About GitHub
 
-C'est la méthode à privilégier. *Vraiment, nous préférons celle-ci* : **c'est notre liste officielle de bugs**.
+This is the preferred method. *Really, we prefer this one*: **this is our official list of bugs**.
 
-Si vous êtes inscrits sur GitHub, allez simplement sur le bon dépôt :
+If you are registered on GitHub, simply go on the good repositories :
 
-* [tickets du dépôt Duniter](https://github.com/duniter/duniter/issues)
-* [tickets du dépôt Sakia](https://github.com/duniter/sakia/issues)
-* [tickets du dépôt Cesium](https://github.com/duniter/cesium/issues)
-* [tickets du dépôt Silkaj](https://github.com/duniter/silkaj/issues)
+* [Duniter tickets repository] (https://github.com/duniter/duniter/issues)
+* [Sakia tickets repository] (https://github.com/duniter/sakia/issues)
+* [Cesium tickets repository] (https://github.com/duniter/cesium/issues)
+* [Silkaj tickets repository] (https://github.com/duniter/silkaj/issues)
 
-Puis mettez un titre, et un descriptif de l'erreur rencontrée :
+Then put a title, and a description of the error encountered:
 
-![]({filename}/images/contribuer/ticket_github.png)
+! [] ({Filename} /images/contribuer/ticket_github.png)
 
-> **/!\ N'oubliez pas de valider en cliquant sur le bouton « Submit new issue » !**
+> ** /! \ Do not forget to validate by clicking the "Submit new issue" button! **
 
-### Sur le forum
+### On the forum
 
-Si *vraiment* vous vous sentez en difficulté pour saisir le ticket sur GitHub (c'est pourtant une bonne occasion d'apprendre !), vous pouvez également créer un sujet sur le forum :
+If you're really struggling to create the ticket on GitHub (it's a good opportunity to learn!), You can also create a topic on the forum:
 
-![]({filename}/images/contribuer/ticket_forum.png)
+! [] ({Filename} /images/contribuer/ticket_forum.png)
 
-Veillez bien à :
+Make sure you:
 
-* donner un titre
-* donner un descriptif
-* sélectionner la catégorie « support »
+* Give a title
+* Give a description
+* Select category "support"
 
-Puis validez. Quelqu'un vous répondra, puis il *nous faudra* ensuite *saisir votre problème* sur GitHub. Mais bon, vous rapportez un bug, c'est le plus important !
+Then validate. Someone will answer you, then *we will register your problem* on GitHub. But good, you reported a bug, this is the most important!

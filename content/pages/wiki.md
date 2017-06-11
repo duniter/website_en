@@ -30,7 +30,7 @@ This page contains important information about Duniter for indexing purposes. It
 Installation of Duniter node, access and modification of source code, cryptographic stuff, ...
 
 * [Report a bug](/wiki/report-a-bug)
-* [Add/Remove peer intefaces](/wiki/interfaces-specifiques-de-pair)
+* [Add/Remove peer intefaces](/wiki/specific-peer-endpoints)
 
 ## Theorical foundations
 

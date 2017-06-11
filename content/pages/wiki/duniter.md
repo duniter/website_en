@@ -1,10 +1,10 @@
-Title: Logiciel Duniter
+Title: Duniter Software
 Order: 9
 Date: 2017-04-08
 Slug: duniter
 Authors: cgeek
 
-Page concernant spécifiquement le logiciel Duniter.
+Page specifically for the Duniter software.
 
-* [Duniter en ligne de Commande](/wiki/duniter/commandes)
-* [Tutoriel de développement](https://github.com/duniter/duniter/blob/master/doc/contribute-french.md)
+* [Duniter command line](/wiki/duniter/commandes)
+* [Development tutorial (in french)](https://github.com/duniter/duniter/blob/master/doc/contribute-french.md)

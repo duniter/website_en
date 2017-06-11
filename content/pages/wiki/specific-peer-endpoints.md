@@ -1,12 +1,12 @@
-Title: Interfaces spécifiques d'un pair
+Title: Specific peer endpoints
 Order: 9
 Date: 2017-03-31
-Slug: interfaces-specifiques-de-pair
+Slug: specific-peer-endpoints
 Authors: cgeek
 
-> Reprise d'un [commentaire sur le ticket GitHub #337](https://github.com/duniter/duniter/issues/337#issuecomment-251380492).
+> Quoted from [commentaire sur le ticket GitHub #337](https://github.com/duniter/duniter/issues/337#issuecomment-251380492).
 
-### Ajouter une interface
+### Add an endpoint
 
 ```
 duniter config --addep "SUPER_ENDPOINT_ELASTIC_SEARCH cgeek.fr blablabla 21020"
@@ -29,13 +29,13 @@ Ce qui produit :
 }
 ```
 
-### Supprimer une interface
+### Remove an endpoint
 
 ```
 duniter config --remep "SUPER_ENDPOINT_ELASTIC_SEARCH cgeek.fr blablabla 21020"
 ```
 
-Ce qui produit :
+Results in : 
 
 ```json
 {
@@ -51,11 +51,11 @@ Ce qui produit :
 }
 ```
 
-### Précautions
+### Cautious
 
-Une bonne pratique est de réaliser ces opérations **exclusivement sur un seul nœud**, qui s'occupera de gérer les interfaces spécifiques. Car si vous avez :
+A good practice is to realize these operations **exclusively on only one node**, which will take care to handle specific endpoints. Because if you have : 
 
-* un nœud qui ajouter l'interface `EP1`
-* un *autre* nœud qui supprime l'interface `EP1`
+* a node which add the endpoint `EP1`
+* *another* node which adds the endpoint `EP1`
 
-Alors vous tomberez dans un [ping-pong infini](/cles-partagees#le-stock-de-blockstamp), ce qui consommera tout le stock disponible de tampons temporels pour émettre de nouvelles fiches de pair. Vous n'aurez alors plus la possibilité de mettre à jour votre fiche de pair avant qu'un nouveau bloc apparaisse.
+Then you will fall in a never ending [ping-pong loop](/cles-partagees#le-stock-de-blockstamp), which will consume all your available stock of timestamps to issue new peer documents. Thus, you won't be able to update your peer document before another block gets computed.
