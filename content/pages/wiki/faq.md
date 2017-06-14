@@ -4,6 +4,6 @@ Date: 2017-04-02
 Slug: faq
 Authors: cgeek
 
-> Page à réaliser. **Pourquoi pas par vous ?**
+> Page to be completed. ** Why not by you? **
 
-> Le bouton « *Modifier la page sur GitHub* » est fait pour ça. Il se trouve en bas à droite, dans la barre de menu.
+> The "*Edit page on GitHub*" button is for this purpose. It is located at the bottom right, in the menu bar.

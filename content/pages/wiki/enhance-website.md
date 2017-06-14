@@ -1,31 +1,31 @@
-Title: Améliorer le site
+Title: Enhance the website
 Order: 9
 Date: 2017-03-31
-Slug: ameliorer-le-site
+Slug: enhance-website
 Authors: cgeek
 
-Ce site est comme un logiciel libre : tout son code source est [disponible](https://github.com/duniter/website) et modifiable.
+This site is like free software: all its source code is [available](https://github.com/duniter/website) and can be modified.
 
-Vous trouverez sur chacune des pages dans la barre latérale un bouton « *Modifier la page sur GitHub* » ou « Modifier l'article sur GitHub ». Il ressemble à ceci :
+You will find on each page in the sidebar a button "*Edit page on GitHub*" or "Edit article on GitHub". It looks like this:
 
 ![](/images/wiki/btn_modifier.png)
 
-En cliquant dessus, vous serez redirgier sur le site web GitHub qui héberge le code source du site. *Vous pourrez donc le modifier*.
+By clicking on it, you will be redirected on the GitHub website which hosts the source code of the site. *You can modify it*.
 
-### Nécessite un compte GitHub
+### Requires a GitHub account
 
-Toutefois après avoir cliqué sur ce bouton, vous noterez rapidement que GitHub requiert d'ouvrir un compte pour aller plus loin. Cela peut vous rebuter, mais sachez que vous n'aurez besoin de créer ce compte qu'une fois pour modifier toutes les pages de notre site (et même d'autres sites proposant cette fonctionnalité).
+However, after clicking this button, you will quickly notice that GitHub requires you to open an account to go further. This may put you off, but you'll only need to create this account once to modify all the pages on our site (and even other sites that offer this feature).
 
-Ce fonctionnement **permet à tous** de corriger une faute de frappe, une mauvaise tournure de phrase, ou même de proposer de nouveaux contenus sans attendre !
+This function **allows anyone** to correct a typo, a bad turn of phrase, or even to propose new contents without waiting!
 
-### Est soumis à modération
+### Is subject to moderation
 
-Bien sûr, vous ne pouvez pas modifier le site sans contrôle de notre part. Mais sachez que grâce à GitHub, nous pouvons *très rapidement répondre* à votre proposition : il nous suffit de cliquer sur un bouton, et hop ! vos modifications apparaissent dans les secondes qui suivent.
+Of course, you can not modify the site without control on our part. But know that thanks to GitHub, we can *very quickly answer* your proposal : we just click a button, and hop! Your changes will appear within seconds.
 
-## Créer une nouvelle page, un nouvel article
+## Create a new page, a new article
 
-Rédiger un nouveau contenu est un peu plus difficile, puisqu'il faut créer un ou plusieurs nouveaux fichiers.
+Writing new content is a little more difficult, since you have to create one or more new files.
 
-Nous détaillerons cela un peu plus tard. Mais si vous vous sentez déjà à l'aise avec GitHub, sachez qu'ajouter un article sur ce blog revient simplement à ajouter un fichier au format `YYYY-MM-DD-nom-article.md` dans le répertoire `content/` pour un article (par exemple `2017-04-28-article-du-28-avril`), ou un fichier `nom-de-la-page.md` dans le répertoire `content/pages/` ou l'un de ses sous-répertoires selon la catégorie visée, de rédiger son contenu en s'inspirant d'autres articles déjà existants pour finalement envoyer une *pull request* via le bouton dédié sur GitHub.
+We will detail this a little later. But if you already feel comfortable with GitHub, add an article on this blog is simply adding a file `YYYY-MM-DD-nom-article.md` in the `content/` directory for an article (for example `2017-04-28-article-du-28-avril`), or a `page-name.md` file in the `content/pages/` directory or one of its subdirectories according to the category concerned, to write its content by taking inspiration from other existing articles to finally send a *pull request* via the dedicated button on GitHub.
 
-De nôtre côté, la validation est toujours un simple bouton.
+On our side, validation is always a simple button.
