@@ -9,8 +9,8 @@ This page contains important information about Duniter for indexing purposes. It
 
 ## Money
 
-* [Becoming a member of the Web of Trust of Ğ1](/wiki/become-member)
-* [Computing nodes remuneration](/wiki/remuneration)
+* [Becoming a member of the Web of Trust of Ğ1](./become-member)
+* [Computing nodes remuneration](./remuneration)
 
 ## Duniter Install
 
@@ -20,7 +20,7 @@ This page contains important information about Duniter for indexing purposes. It
 
 ## Software
 
-* [Duniter](/wiki/duniter) server, server software / desktop software
+* [Duniter](./duniter) server, server software / desktop software
 * [Sakia](http://sakia-wallet.org/), desktop client [[development tutorial](https://github.com/duniter/sakia/blob/master/doc/install_for_developpers.md)]
 * [Cesium](https://github.com/duniter/cesium), web application [[develoment tutorial](https://github.com/duniter/cesium/blob/master/doc/fr/development_tutorial-01.md)]
 * [Silkaj](https://github.com/duniter/silkaj), CLI python client
@@ -29,8 +29,8 @@ This page contains important information about Duniter for indexing purposes. It
 
 Installation of Duniter node, access and modification of source code, cryptographic stuff, ...
 
-* [Report a bug](/wiki/report-a-bug)
-* [Add/Remove peer intefaces](/wiki/specific-peer-endpoints)
+* [Report a bug](./report-a-bug)
+* [Add/Remove peer intefaces](./specific-peer-endpoints)
 
 ## Theorical foundations
 

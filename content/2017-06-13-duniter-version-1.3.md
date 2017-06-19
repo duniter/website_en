@@ -24,7 +24,7 @@ It was a feature [announced during the RML9 at Le Havre] (/videos-rml9): Duniter
 
 As an example, it is now possible to add [the duniter-currency-monit plugin](https://github.com/duniter/duniter-currency-monit/releases) to its local node:
 
-<img class="screenshot" src="/images/duniter-1.3/g1-monit.png"> </img>
+<img class="screenshot" src="../images/duniter-1.3/g1-monit.png"> </img>
 
 A documentation of the modules is available on the [Wiki] (wiki/duniter/modules/).
 
@@ -36,11 +36,11 @@ The Cesium client was historically delivered with Duniter. With the arrival of m
 
 ## Synchronization
 
-> <span class="icon">![](/images/icons/white_check_mark.png)</span> No need to resynchronize. 
+> <span class="icon">![](../images/icons/white_check_mark.png)</span> No need to resynchronize. 
 
 ## Compatibility
 
-> <span class="icon">![](/images/icons/white_check_mark.png)</span> Compatible with Ğ1.
+> <span class="icon">![](../images/icons/white_check_mark.png)</span> Compatible with Ğ1.
 
 -----
 

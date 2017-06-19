@@ -30,7 +30,7 @@ body {
 }
 
 .download a {
-    width: 200px;
+    width: 230px;
 }
 
 .currency_network {
@@ -113,7 +113,7 @@ blockquote {
 
 #content .thumbnail img {
     height: 50px;
-    width: 50px;
+    width: auto;
 }
 
 img.credits {
@@ -192,6 +192,23 @@ img.credits {
     .nav.navbar-nav {
         width: 90%;
     }
+}
+
+.entry-content a {
+    color: #4582ec;
+}
+
+.entry-content a:hover {
+    color: #134fb8;
+}
+
+.icon img {
+    width: 20px;
+    margin-right: 3px;
+}
+
+img.screenshot {
+    padding: 30px;
 }
 
 .flag-lang {

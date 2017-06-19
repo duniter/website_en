@@ -6,5 +6,5 @@ Authors: cgeek
 
 Page specifically for the Duniter software.
 
-* [Duniter command line](/wiki/duniter/commandes)
+* [Duniter command line](./commandes)
 * [Development tutorial (in french)](https://github.com/duniter/duniter/blob/master/doc/contribute-french.md)

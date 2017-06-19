@@ -4,11 +4,11 @@ Date: 2017-03-31
 Slug: enhance-website
 Authors: cgeek
 
-This site is like free software: all its source code is [available](https://github.com/duniter/website) and can be modified.
+This site is like free software: all its source code is [available](https://github.com/duniter/website_en) and can be modified.
 
 You will find on each page in the sidebar a button "*Edit page on GitHub*" or "Edit article on GitHub". It looks like this:
 
-![](/images/wiki/btn_modifier.png)
+![](../../images/wiki/btn_modifier.png)
 
 By clicking on it, you will be redirected on the GitHub website which hosts the source code of the site. *You can modify it*.
 
