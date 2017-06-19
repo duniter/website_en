@@ -6,9 +6,9 @@ Authors: cgeek, galuel
 
 > ** /! \ The use of currency Ğ1 implies the acceptance of its license, a copy of which is given below. **
 
-<Center id = "license_g1"> [Download License Ğ1 (text format)](./../../../files/license_g1.txt) </ center>
+<Center id = "license_g1"> [Download License Ğ1 (text format)](../../files/license_g1.txt) </ center>
 
-<Iframe width = "100%" height = "300px" src = "../../../files/license_g1.txt"> </ iframe>
+<iframe width = "100%" height = "300px" src = "../../files/license_g1.txt"> </iframe>
 
 > Once the license is received, read and accepted, the process to become a member of the Ğ1 WoT goes through the creation of an ID (your identifier / nicname) and a pair (private key / public key) [if possible in a secure way] (https://forum.duniter.org/t/recommendations-of-security-before-creating-your-account-g1/1819). The public key becomes an account number that can only be used by the person who owns the private key, which is constructed by another pair (passphrase / password) = private key, which must be carefully kept for oneself.
 
