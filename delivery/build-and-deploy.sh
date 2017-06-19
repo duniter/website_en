@@ -15,6 +15,6 @@ echo "Génération du site"
 pelican -s publishconf.py
 
 echo "Copie des fichiers..."
-cp -R output/* ../fr/
+cp -R output/* ../en/
 
 echo "Génération de duniter.org/fr terminée."
