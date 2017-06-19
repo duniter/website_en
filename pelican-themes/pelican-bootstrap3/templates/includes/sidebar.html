@@ -5,6 +5,12 @@
 <section class="well well-sm">
     <ul class="list-group list-group-flush">
 
+        <!-- Language -->
+        <li class="list-group-item">
+            <a href="https://duniter.org/en"><img src="../images/i18n/flag-en.png" class="flag-lang"/></a>
+            <a href="https://duniter.org/fr"><img src="../images/i18n/flag-fr.png" class="flag-lang"/></a>
+        </li>
+
         <!-- Search bar in low width mode -->
         {% if 'tipue_search' in PLUGINS %}
         <li id="searchSideBar" class="list-group-item"><span>
@@ -115,10 +121,10 @@
         {% if page %}
         <li class="list-group-item" id="github">
             <ul class="list-group">
-                <li class="list-group-item"><h5>Vous voyez une erreur ?</h5></li>
+                <li class="list-group-item"><h5>Did you see an error?</h5></li>
                 <li class="list-group-item">
-                    <a class="btn btn-info github" target="_blank" href="https://github.com/duniter/website/edit/master/content/pages/{{ page.path }}.md">
-                        <i class="fa fa-random"></i> Modifiez la page sur GitHub
+                    <a class="btn btn-info github" target="_blank" href="https://github.com/duniter/website_en/edit/master/content/pages/{{ page.path }}.md">
+                        <i class="fa fa-random"></i> Fix this page on GitHub
                     </a>
                 </li>
             </ul>
@@ -127,10 +133,10 @@
         {% if article %}
         <li class="list-group-item" id="github">
             <ul class="list-group">
-                <li class="list-group-item"><h5>Vous voyez une erreur ?</h5></li>
+                <li class="list-group-item"><h5>Did you see an error?</h5></li>
                 <li class="list-group-item">
-                    <a class="btn btn-info github" target="_blank" href="https://github.com/duniter/website/edit/master/content/{{ article.date.strftime('%Y-%m-%d') ~ '-' ~ article.slug }}.md">
-                        <i class="fa fa-random"></i> Modifiez l'article sur GitHub
+                    <a class="btn btn-info github" target="_blank" href="https://github.com/duniter/website_en/edit/master/content/{{ article.date.strftime('%Y-%m-%d') ~ '-' ~ article.slug }}.md">
+                        <i class="fa fa-random"></i> Fix this article on GitHub
                     </a>
                 </li>
             </ul>

@@ -193,3 +193,8 @@ img.credits {
         width: 90%;
     }
 }
+
+.flag-lang {
+    margin-right: 10px;
+    width: 45px;
+}
