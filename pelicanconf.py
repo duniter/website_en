@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 # AUTHOR = u'Duniter'
 SITENAME = u'Duniter'
-SITEURL = u'http://localhost:8556'
+SITEURL = u'http://localhost:8557'
 
 PATH = 'content'
 THEME = "pelican-themes/pelican-bootstrap3"

@@ -23,9 +23,9 @@ Generate the site
 
 Serve it
 
-    ./develop_server.sh restart 8556
+    ./develop_server.sh restart 8557
 
-The website should be available at http://localhost:8556.
+The website should be available at http://localhost:8557.
 
 ## Generate production site
 
