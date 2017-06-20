@@ -12,15 +12,14 @@ This page contains important information about Duniter for indexing purposes. It
 * [Becoming a member of the Web of Trust of Ğ1](./become-member)
 * [Computing nodes remuneration](./remuneration)
 
-## Duniter Install
+## Software suite
 
-* [Install a Duniter node](https://github.com/duniter/duniter/blob/master/doc/install-a-node.md)
-* [Update a Duniter node](https://github.com/duniter/duniter/blob/master/doc/update-a-node.md)
-* [Update a Duniter node hosted on YunoHost](https://forum.duniter.org/t/full-https-support-for-duniter-package-for-yunohost/1892/18)
+### [Duniter Software](./duniter)
 
-## Software
+Heart of the Duniter network, a P2P application which synchronizes and modifies the common blockchain.
 
-* [Duniter](./duniter) server, server software / desktop software
+### Clients
+
 * [Sakia](http://sakia-wallet.org/), desktop client [[development tutorial](https://github.com/duniter/sakia/blob/master/doc/install_for_developpers.md)]
 * [Cesium](https://github.com/duniter/cesium), web application [[develoment tutorial](https://github.com/duniter/cesium/blob/master/doc/fr/development_tutorial-01.md)]
 * [Silkaj](https://github.com/duniter/silkaj), CLI python client

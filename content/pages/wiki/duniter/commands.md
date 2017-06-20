@@ -1,7 +1,7 @@
-Title: Commandes Duniter
+Title: Duniter Commands
 Order: 9
 Date: 2017-04-08
-Slug: commandes
+Slug: commands
 Authors: cgeek
 Here is a guide to the different commands of the `duniter` command-line executable.
 
