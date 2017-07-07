@@ -20,7 +20,7 @@ Heart of the Duniter network, a P2P application which synchronizes and modifies 
 
 ### Clients
 
-* [Sakia](http://sakia-wallet.org/), desktop client [[development tutorial](https://github.com/duniter/sakia/blob/master/doc/install_for_developpers.md)]
+* [Sakia](http://sakia-wallet.org/), desktop client [[development tutorial](https://github.com/duniter/sakia/blob/master/doc/install_for_developers.md)]
 * [Cesium](https://github.com/duniter/cesium), web application [[develoment tutorial](https://github.com/duniter/cesium/blob/master/doc/fr/development_tutorial-01.md)]
 * [Silkaj](https://github.com/duniter/silkaj), CLI python client
 
