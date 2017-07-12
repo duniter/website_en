@@ -73,11 +73,11 @@ ACCEPTED_MENUS = ['presentation',
 
 SOCIAL = (('Forum', 'https://forum.duniter.org', 'comment'),
           ('XMPP Chatroom', 'https://chat.duniter.org', 'comments'),
-          ('Bugs', '/wiki/report-a-bug', 'bug'),
+          ('Bugs', '/en/wiki/report-a-bug', 'bug'),
           ('Twitter', 'https://twitter.com/duniter'),
           ('GitHub', 'https://github.com/duniter'),
           ('Diaspora', 'https://framasphere.org/people/1949ee70f6bc0134e6b32a0000053625', 'asterisk'),
-          ('RSS', '/feeds/all.atom.xml'),)
+          ('RSS', '/en/feeds/all.atom.xml'),)
 
 DEFAULT_PAGINATION = 10
 
