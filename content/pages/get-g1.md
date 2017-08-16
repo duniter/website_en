@@ -11,7 +11,7 @@ Whether you are an individual, an association, a company or a robot, you can obt
 
 To do this, it is simple: create a wallet Ğ1 then find someone ready to make an exchange. Yes but an exchange of what? Of units Ğ1 for the one who owns it, against a good or service for the one who wants it.
 
-A really simple market place has been developed. Named [Ğannonce](https://github.com/c-geek/gannonce-pod), its first instance is hosted on [duniter website](https://gannonce.duniter.org/).
+A really simple market place has been developed. Named [Ğannonce](https://github.com/c-geek/gannonce-pod), its first instance is hosted on [duniter website](https://gannonce.duniter.org/). Another marketplace also exists, called [ĞChange](https://www.gchange.fr).
 
 ## Produce
 
@@ -25,6 +25,6 @@ Once sufficiently seasoned with ĞTest, you can then try to move to Ğ1. You can
 
 > ** /! \ Caution: Adhering to the currency Ğ1 implies the acceptance of its license, a copy of which you will find below. **
 
-<center id="licence_g1">[Télécharger la Licence Ğ1 (format texte)](/en/files/licence_g1.txt)</center>
+<center id="licence_g1">[Download the Ğ1 license (text format)](/en/files/licence_g1.txt)</center>
 
 <iframe width="100%" height="300px" src="../files/licence_g1.txt"></iframe>
