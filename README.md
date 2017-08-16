@@ -1,6 +1,6 @@
 # Duniter website
 
-Public site available at https://duniter.org/fr
+Public site available at https://duniter.org/en
 
 ## Reproduce it locally
 
