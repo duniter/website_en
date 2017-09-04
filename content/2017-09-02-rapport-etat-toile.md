@@ -19,12 +19,11 @@ If you regularly read my reports, which you regularly read *g1-monit* and you wa
 # Prerequisites
 Before reading these reports, it is strongly recommended that you review the [license Ğ1](https://duniter.org/en/files/licence_g1.txt) and read all the following pages:
 
-* [Become a member of the Ğ1 web of trust](https://duniter.org/en/wiki/devenir-membre)
-* [Certify new members](https://duniter.org/en/wiki/certify-of-new-members)
+* [Becoming a member of the Ğ1 web of trust](https://duniter.org/en/wiki/become-member)
 * [Frequently Asked Questions on the web of trust](https://duniter.org/en/faq/)
-* [**How the web of trust works**](https://duniter.org/fr/introduction-a-confiance_silver/)
+* [**How the web of trust works**](https://duniter.org/fr/introduction-a-la-toile-de-confiance/)
 
-In particular, reading the article [**Introduction to the web of trust**](https://duniter.org/fr/introduction-a-confiance-style/) is essential to know the function of each of the rules of the web.
+In particular, reading the article [**Introduction to the web of trust**](https://duniter.org/fr/introduction-a-la-toile-de-confiance/) is essential to know the function of each of the rules of the web.
 
 I will also use notions of graph theory, but I will try to define each time the terms used.
 
@@ -57,7 +56,7 @@ We are two weeks after the passage of the level Y[n]=4, here is a reminder of th
 The densification effect of the level has already dissipated, the web of trust is again as taut as before the passage of the level, or even slightly more:
 
 * The proportion of members with a quality >= 1 fell to **82%** about the same level as before the level (83%).
-* In addition, a dozen members begin to fall to very low quality levels (less than 0.9), which means that they start to be too far from the referring members, black areas on this graph on page [web of trust quality] (https://g1-monit.elois.org/gaussianWotQuality?lg=en): </BR><img src="https://librelois.fr/public/qualite-toile-020917.png" width="690" height="339">  
+* In addition, a dozen members begin to fall to very low quality levels (less than 0.9), which means that they start to be too far from the referring members, black areas on this graph on page [web of trust quality](https://g1-monit.elois.org/gaussianWotQuality?lg=en): </BR><img src="https://librelois.fr/public/qualite-toile-020917.png" width="690" height="339">  
 * Moreover, of the 79 future members who have received at least 1 certification, 7 of them do not respect the rule of distance, 3 have been certified by the same member. Nevertheless these are  **4 different cases of non-compliance with distance rule**.  
 * Another indicator shows the tension of the web of trust, **the increase in the average length of the shortest path between two members** which is now **4.13**. This value has increased continuously even when passing the level because it is independent of the notion of referent member. It shows the state of tension of the entire web of trust where the quality  of a member only shows the state of tension of a subset of the web (the subset of referent -> member links).
 * Lastly, the number of referring members has risen above its pre-stage value (153):  
