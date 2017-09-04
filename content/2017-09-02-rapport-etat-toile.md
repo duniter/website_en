@@ -6,7 +6,7 @@ Slug: report-state-wot
 Authors: elois
 Thumbnail: /images/network.svg
 
-Since [4 July 2017] (https://forum.duniter.org/t/currency-monit-monitoring-dune-monnaie- and-sa-toile-de-confiance/2770/17?u=elois) I keep detailed statistics on the status of the web of trust that you can view on [g1-monit.elois.org] (https://g1-monit.elois.org).
+Since [4 July 2017](https://forum.duniter.org/t/currency-monit-monitoring-dune-monnaie- and-sa-toile-de-confiance/2770/17?u=elois) I keep detailed statistics on the status of the web of trust that you can view on [g1-monit.elois.org](https://g1-monit.elois.org).
 * These statistics are produced by `duniter-currency-monit` (duniter-currency-monit`), which is used directly in the local block of the duniter node. which it is installed. *
 
 I decided to take advantage of these statistics to publish regularly a short report on the global state of the web of trust Ğ1.
@@ -14,7 +14,7 @@ I decided to take advantage of these statistics to publish regularly a short rep
 ## The spirit of these short regular reports
 
 The objective of these short regular reports is not to be exhaustive, but rather to highlight certain indicators that seem relevant at a given moment to visualize a given phenomenon. There is no defined frequency, I will publish a report whenever there seems to be something relevant to describe and that I will have time for.
-If you regularly read my reports, which you regularly read *g1-monit* and you want to write reports, you can [contact me] (https://librelois.fr/contact/) to be discussed :)
+If you regularly read my reports, which you regularly read *g1-monit* and you want to write reports, you can [contact me](https://librelois.fr/contact/) to be discussed :)
 
 # Prerequisites
 Before reading these reports, it is strongly recommended that you review the [license Ğ1](https://duniter.org/en/files/licence_g1.txt) and read all the following pages:
