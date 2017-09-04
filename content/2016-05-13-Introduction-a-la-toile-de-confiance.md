@@ -68,8 +68,6 @@ In a money created with Duniter, the maximum validity duration of a member ident
 
 **Certifications**
 
-
-
  To become a member, an individual must collect a given number of certifications from existing members. These certifications have an expiration date. To keep a member status, a digital identity must be continually re-certified by members.
 
 The number of necessary certifications to become a member is configured by the parameter  *sigQty (Min Required Certs)*. The life expectancy of a certification is configured with the parameter  *sigValidity (Cert Expiry Delay)*.
@@ -84,27 +82,31 @@ A group of members could associate to create fake identities and certify them to
 
 <center>![Sybil Network](https://framapic.org/qh2PZc9A2Unk/IDZe8MfG6yh0.jpg)</center>
 
- To prevent this attack, Duniter ensures that members are close enough one to the others in the web of trust. In the example below, the member C is two steps from A.
+To prevent this attack, Duniter ensures that members are close enough one to the others in the web of trust. In the example below, the member C is two steps from A.
 
 <center>![2 steps](https://framapic.org/4LNI8XX2JAJt/HY1s3QndhJS7.jpg)</center>
 
- When an individual is susceptible to become a member (that is, he obtained enough certifications), Duniter runs the following verification procotol :     
+When an individual is susceptible to become a member (that is, he obtained enough certifications), Duniter runs the following verification procotol :     
 
-* Members who issued enough certifications are used as  « points of control    » (*sentries*).
+The number of certifications to be issued **and** to receive depends on the number of current members. N is the number of members, Y(N) is the number of certifications to be issued **and** received for the member to be considered "referent".
 
-The number of issued certifications depends of the number of current members. N is the number of members, Y(N) is the number of issued certifications required for the members to be considered  « point of control ».
+For an identity to become a member, there must be a path of *stepMax* no or less than *xpercent* % of referring members to the identity in question.
+
+In the case of the currency Ğ1 *stepMax* = `5` and *xpercent* =` 0.8` (80%)
+
+Y (N) = CEIL (N ^ (1 / stepMax))
 
 ```
+With stepMax = 5
 N         Y(N)
-10        2
-100       4
-1000      6
-10000     8
-100000    12
-1000000   20
+1         1
+2         2
+33        3
+244       4
+1025      5
+3126      6
+7777      7
 ```
-
-To become a member, the identity has to join a given percentage *xpercent* (Percent of distance) of the points of controls with a number of steps named *maxsteps* (Max distance).
 
  **Limiting the powers**
 
