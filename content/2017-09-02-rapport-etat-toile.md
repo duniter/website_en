@@ -7,7 +7,7 @@ Authors: elois
 Thumbnail: /images/network.svg
 
 Since [4 July 2017](https://forum.duniter.org/t/currency-monit-monitoring-dune-monnaie- and-sa-toile-de-confiance/2770/17?u=elois) I keep detailed statistics on the status of the web of trust that you can view on [g1-monit.elois.org](https://g1-monit.elois.org).  
-*These statistics are produced by `duniter-currency-monit` (duniter-currency-monit`), which is used directly in the local block of the duniter node. which it is installed.*
+*These statistics are produced by the [duniter plugin](https://duniter.org/fr/wiki/duniter/liste-modules/) `duniter-currency-monit` (duniter-currency-monit), which is used directly in the local block of the duniter node on which it is installed.*
 
 I decided to take advantage of these statistics to publish regularly a short report on the global state of the web of trust Ğ1.
 
