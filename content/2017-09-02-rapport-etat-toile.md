@@ -20,7 +20,6 @@ If you regularly read my reports, which you regularly read *g1-monit* and you wa
 Before reading these reports, it is strongly recommended that you review the [license Ğ1](https://duniter.org/en/files/licence_g1.txt) and read all the following pages:
 
 * [Becoming a member of the Ğ1 web of trust](https://duniter.org/en/wiki/become-member)
-* [Frequently Asked Questions on the web of trust](https://duniter.org/en/faq/)
 * [**How the web of trust works**](https://duniter.org/fr/introduction-a-la-toile-de-confiance/)
 
 In particular, reading the article [**Introduction to the web of trust**](https://duniter.org/fr/introduction-a-la-toile-de-confiance/) is essential to know the function of each of the rules of the web.
