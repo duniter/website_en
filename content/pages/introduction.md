@@ -1,7 +1,7 @@
-Title: Presentation
+Title: Introduction
 Order: 1
 Date: 2015-08-11
-Slug: presentation
+Slug: introduction
 Authors: cgeek
 
 Duniter is a _cryptocurrency software_, which means it is a **software** providing the ability to **create currencies**. Duniter is different from other cryptocurrency softwares you may know (Bitcoin, Litecoin, Peercoin, ...) for 2 main reasons : its **currency code** includes the concepts of a [Universal Dividend](https://en.wikipedia.org/wiki/Social_credit) and [Web of Trust](https://en.wikipedia.org/wiki/Web_of_trust); but also its **Blockchain code**, which is far more energy efficient, getting rid of the massive waste of energy introduced by Bitcoin.
