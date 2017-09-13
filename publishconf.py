@@ -65,7 +65,7 @@ LINKS = (('duniter.org', 'https://duniter.org/'),
          ('creationmonetaire.info', 'http://creationmonetaire.info/'),)
 
 # Social widget
-ACCEPTED_MENUS = ['presentation',
+ACCEPTED_MENUS = ['introduction',
          'get-g1',
          'contribuer',
          'contact',
