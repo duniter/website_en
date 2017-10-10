@@ -17,3 +17,7 @@ Page concernant spécifiquement le logiciel Duniter.
 
 * [Duniter CLI](./commands)
 * [Development tutorial (in french)](https://github.com/duniter/duniter/blob/master/doc/contribute-french.md)
+
+## Concepts
+
+* [Architecture](./architecture)

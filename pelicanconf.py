@@ -24,14 +24,15 @@ SITELOGO_SIZE = 36
 DEFAULT_LANG = u'fr'
 
 PLUGIN_PATHS = ['pelican-plugins/']
-PLUGINS = ['i18n_subsites', 'tipue_search', 'pelican-page-hierarchy']
+PLUGINS = ['i18n_subsites', 'tipue_search', 'pelican-page-hierarchy', 'plantuml']
 
 MARKDOWN = {
   'extension_configs': {
     'markdown.extensions.codehilite': { 'css_class': 'highlight' },
     'markdown.extensions.fenced_code': {},
     'markdown.extensions.extra': {},
-    'markdown.extensions.toc': {}
+    'markdown.extensions.toc': {},
+    #'plantuml.plantuml_md': {'siteurl': '/en'} DOES NOT WORK, NEED A PATCH ON THE PLUGIN PLANTUML, USE SITEURL BY DEFAULT
   }
 }
 
