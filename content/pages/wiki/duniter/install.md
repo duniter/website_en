@@ -126,7 +126,7 @@ A [YunoHost package](https://github.com/duniter/duniter_ynh) is available.
 
 Duniter can be compiled on the majority of Linux machines (32 bits or 64 bits) in just a few steps:
 
-1. Install [Node.js version 6 or above](https://nodejs.org)
+1. Install [Node.js version 6 or above](https://nodejs.org) + [Yarn](https://yarnpkg.com/lang/en/docs/install/)
 
 2. Go to the [latest release page](https://github.com/duniter/duniter/releases/latest) and download the `Source code (tar.gz)` file.
 
@@ -134,7 +134,7 @@ Duniter can be compiled on the majority of Linux machines (32 bits or 64 bits) i
   > N.B. : **do not launch these commands as `root`.** [This won't work, we know it](https://github.com/duniter/duniter/issues/412).
 
         cd duniter
-        npm install
+        yarn
         
 4. Use [the Duniter commands](./commands) by prefixing `duniter` with `bin/`. Example: 
 
