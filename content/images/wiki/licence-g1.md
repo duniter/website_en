@@ -1,7 +1,7 @@
 Title: Licence Ğ1
 Order: 9
 Date: 2017-10-04
-Slug: Licence Ğ1
+Slug: g1-license
 Authors: cgeek, galuel
 
 > ** /! \ The use of currency Ğ1 implies the acceptance of its license, a copy of which is given below. **

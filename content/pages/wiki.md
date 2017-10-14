@@ -9,7 +9,7 @@ This page contains important information about Duniter for indexing purposes. It
 
 ## Money
 
-* [Becoming a member of the Web of Trust of Ğ1](./become-member)
+* [Ğ1 license](./g1-license)
 * [Computing nodes remuneration](./remuneration)
 
 ## Software suite
