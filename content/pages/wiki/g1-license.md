@@ -6,7 +6,7 @@ Authors: cgeek, galuel
 
 > ** /! \ The use of currency Ğ1 implies the acceptance of its license, a copy of which is given below. **
 
-<Center id = "license_g1"> [Download License Ğ1 (text format)](../../files/license_g1.txt) </ center>
+<center id = "license_g1"> [Download License Ğ1 (text format)](../../files/license_g1.txt)</center>
 
 [//]: # (BeginLicense)
 
