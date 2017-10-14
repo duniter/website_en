@@ -13,7 +13,7 @@ echo "Copie de la licence..."
 cd G1
 git pull origin master
 cd ..
-cp ./G1/license/license_g1-en.rst content/files/licence_g1.txt
+cp ./G1/license/license_g1-en.rst content/files/license_g1.txt
 
 echo "Installation de Pelican"
 virtualenv .
