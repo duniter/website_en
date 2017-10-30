@@ -35,7 +35,7 @@ Authors: cgeek, galuel
 Once the registration process started, you can follow its processing through 2 tools:
 
 * [g1-monit](https://g1-monit.elois.org/willMembers?lg=fr) : visualize the registrating members waiting to be members
-* [WotWizard](https://forum.duniter.org/t/les-previsions-de-wotwizard/3004) : previsions of the entering dates of each registration
+* [WotWizard](https://wot-wizard.duniter.org/) : previsions of the entering dates of each registration
 
 The combination of these 2 tools is enough to know if your registration pack is complete and valid, as well as knowing the probable date of your joining in the web of trust of the currency.
 
