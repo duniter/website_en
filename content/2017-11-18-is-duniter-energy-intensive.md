@@ -6,7 +6,7 @@ Slug: is-duniter-energy-consuming
 Authors: cgeek
 Thumbnail: /images/light.svg
 
-The Bitcoin has a reputation for being an energy consuming. Duniter inherits some of the Bitcoin's properties, such as the proof of work and the blockchain. People are therefore legitimately asking this question: 
+The Bitcoin has a reputation for being an energy consuming network. Duniter inherits some of the Bitcoin's properties, such as the proof of work and the blockchain. People are therefore legitimately asking this question: 
 
 > Is Duniter also energy consuming ?
 
@@ -28,7 +28,7 @@ For example, in the case of Bitcoin, [each transaction consumes 215 kWh](https:/
 
 ### And Duniter in all this?
 
-A first point to understand is that there is no race for power in Duniter, **for the simple reason that there is no particular reward to calculate blocks** unlike the Bitcoin. This simple measure cuts the grass under the foot of a possible run.
+A first point to understand is that there is no race for power in Duniter, **for the simple reason that there is no particular reward to calculate blocks** unlike in Bitcoin. This simple measure cuts the grass under the foot of a possible run.
 
 However, Duniter does have a proof-of-work mechanism to allow network nodes to speak synchronously. This task is the source of Bitcoin's energy consumption. But here again, Duniter benefits from unique mechanisms because of its web of trust: first, only members of the currency can calculate blocks, which limits the number of potential participants. But also, Duniter has a mechanism *that permanently excludes 1/3 of the computer network from proof of work*. This means that at each block there are 1/3 of the computers that turn their thumbs. And so, only 2/3 of them actually make calculations. This excluded 1/3 can then adjust its power consumption to perform only simple operations, such as receiving transactions on the network.
 
