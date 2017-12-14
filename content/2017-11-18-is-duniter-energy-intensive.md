@@ -4,7 +4,7 @@ Category: Technical
 Tags: proof of work
 Slug: is-duniter-energy-consuming
 Authors: cgeek
-Thumbnail: /images/light. svg
+Thumbnail: /images/light.svg
 
 The Bitcoin has a reputation for being an energy consuming. Duniter inherits some of the Bitcoin's properties, such as the proof of work and the blockchain. People are therefore legitimately asking this question: 
 
