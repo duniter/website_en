@@ -73,13 +73,18 @@ ACCEPTED_MENUS = ['introduction',
          'wiki',
          'a-propos',]
 
+
 SOCIAL = (('Forum', 'https://forum.duniter.org', 'comment'),
-          ('XMPP Chatroom', 'https://chat.duniter.org', 'comments'),
-          ('Bugs', '/en/wiki/report-a-bug', 'bug'),
-          ('Mastodon', 'ihttps://mastodon.xyz/@duniter'),
+          ('Salon XMPP', 'https://chat.duniter.org', 'comments'),
+          ('Bugs', '/fr/wiki/rapporter-un-bug', 'bug'),
+          ('Mastodon', 'ihttps://mastodon.xyz/@duniter', 'globe'),
           ('Gitlab', 'https://git.duniter.org/'),
+          ('GitHub', 'https://github.com/duniter'),
           ('Diaspora', 'https://framasphere.org/people/1949ee70f6bc0134e6b32a0000053625', 'asterisk'),
-          ('RSS', '/en/feeds/all.atom.xml'),)
+          ('RSS', '/feeds/all.atom.xml'),
+          ('ğchange', 'https://www.gchange.fr', 'balance-scale'),
+          ('ğannonce', 'https://gannonce.duniter.org', 'bullhorn'),)
+
 
 DEFAULT_PAGINATION = 10
 
