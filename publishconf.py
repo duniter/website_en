@@ -75,9 +75,9 @@ ACCEPTED_MENUS = ['introduction',
 
 SOCIAL = (('Forum', 'https://forum.duniter.org', 'comment'),
           ('XMPP Chatroom', 'https://chat.duniter.org', 'comments'),
-          ('Bugs', '/en/wiki/rapporter-un-bug', 'bug'),
-          ('Twitter', 'https://twitter.com/duniter'),
-          ('GitHub', 'https://github.com/duniter'),
+          ('Bugs', '/en/wiki/report-a-bug', 'bug'),
+          ('Mastodon', 'ihttps://mastodon.xyz/@duniter'),
+          ('Gitlab', 'https://git.duniter.org/'),
           ('Diaspora', 'https://framasphere.org/people/1949ee70f6bc0134e6b32a0000053625', 'asterisk'),
           ('RSS', '/en/feeds/all.atom.xml'),)
 
@@ -101,9 +101,3 @@ SHOW_ARTICLE_AUTHOR = True
 SHOW_ARTICLE_CATEGORY = False
 SHOW_DATE_MODIFIED = True
 
-GITHUB_USER = ''
-GITHUB_SHOW_USER_LINK = True
-GITHUB_SKIP_FORK = False
-GITHUB_REPO_COUNT = 2
-
-TWITTER_USERNAME = 'duniter'
