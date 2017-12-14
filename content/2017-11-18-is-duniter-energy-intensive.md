@@ -34,7 +34,7 @@ However, Duniter does have a proof-of-work mechanism to allow network nodes to s
 
 <center><image src="../images/networking.svg" width="200px"/></center>
 
-Does this mean that the remaining 2/3 of the electricity consumption is high? Contrary to the Bitcoin, the machines used for calculation are home computers, possibly servers or simply Raspberry PI. And all that is enough. Besides, Bitcoin's ultra-efficient machines (the famous[ASIC](https://en.bitcoin.it/wiki/ASIC)] are totally useless in Duniter because the proof of work mechanism is not the same.
+Does this mean that the remaining 2/3 of the electricity consumption is high? Contrary to the Bitcoin, the machines used for calculation are home computers, possibly servers or simply Raspberry PI. And all that is enough. Besides, Bitcoin's ultra-efficient machines (the famous[ASIC](https://en.bitcoin.it/wiki/ASIC) ) are totally useless in Duniter because the proof of work mechanism is not the same.
 
 **And so in reality, each Duniter node consumes as much energy as a bulb of 10 W to 100 W, which runs continuously.**
 
