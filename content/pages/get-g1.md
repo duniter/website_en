@@ -21,7 +21,7 @@ But if you are an individual not yet producing units Ğ1, know that *you could p
 
 We advise you first to try the *test network* and its currency ĞTest. There are no tutorials in english, so feel free to produce it !
 
-Once sufficiently seasoned with ĞTest, you can then try to move to Ğ1. You can start by *bringing you closer to people already members of Ğ1 and knowing you*, their certifications being necessary to become a member. Most of the members are french and belgiums right now, so this could require a bit of effort if you are not living in France or Belgium right now.
+Once sufficiently seasoned with ĞTest, you can then try to move to Ğ1. You can start by *bringing you closer to people already members of Ğ1 and knowing you*, their certifications being necessary to become a member. Most of the members are french and belgian right now, so this could require a bit of effort if you are not living in France or Belgium right now.
 
 > ** /! \ Caution: Adhering to the currency Ğ1 implies the acceptance of its license, a copy of which you will find below. **
 
