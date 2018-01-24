@@ -1,4 +1,4 @@
-Title: Migration under gitlab
+Title: Migration to gitlab
 Date: 2018-01-10
 Category: Technical
 Tags: gitlab
