@@ -1,3 +1,9 @@
+Title: Generate a Windows release of Duniter
+Order: 9
+Date: 2018-01-26
+Slug: create_win_release
+Authors: jytou
+
 # Prerequisites to build the windows version of duniter
 
 To produce a Windows Release file of duniter, there are a couple of prerequisites:
@@ -13,13 +19,17 @@ To produce a Windows Release file of duniter, there are a couple of prerequisite
 
 Then just do the following (and adapt to the current branch, if changed):
 
->git clone https://git.duniter.org/nodes/typescript/duniter.git -b 1.6
+```
+git clone https://git.duniter.org/nodes/typescript/duniter.git -b 1.6
 cd duniter/
+```
 
 If you are low in memory (less than 4 Gb **available**), you can open the file release/arch/windows/Vagrantfile, look for "vb.memory" and set it to some lower value (I would recommend at least 2048).
 Then run:
 
->release/scripts/build.sh make win v<version_number>
+```
+release/scripts/build.sh make win v<version_number>
+```
 
 Let the release do its work. The first time, Vagrant will need to download the virtualbox image (13 Gb) so depending on your Internet connection it might be long, but it will reuse it the next times (on ubuntu it is stored in <home>/.vagrant.d/boxes, make sure you have some disk space there).
 
