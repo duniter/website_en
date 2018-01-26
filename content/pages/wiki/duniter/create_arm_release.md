@@ -1,3 +1,9 @@
+Title: Generate an ARM release of Duniter
+Order: 9
+Date: 2018-01-26
+Slug: create_arm_release
+Authors: jytou
+
 # Prerequisites to generate an arm version of Duniter
 
 To produce an arm release file, there is currently the following requirement:
