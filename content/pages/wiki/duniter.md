@@ -13,10 +13,11 @@ Page concernant spécifiquement le logiciel Duniter.
 * [Update your Duniter node](./update)
 * [Update a Duniter node hosted on YunoHost](https://forum.duniter.org/t/full-https-support-for-duniter-package-for-yunohost/1892/18)
 
-## Usage
+## For Developers
 
 * [Duniter CLI](./commands)
 * [Development tutorial (in french)](https://github.com/duniter/duniter/blob/master/doc/contribute-french.md)
+* Creating a release [for Windows](./create_win_release) and [for ARM](./create_arm_release)
 
 ## Concepts
 
