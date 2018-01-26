@@ -16,9 +16,11 @@ To produce an arm release file, there is currently the following requirement:
 # Installing yarn
 
 Install yarn:
->curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+```
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt-get update && sudo apt-get install yarn
+```
 
 # Installing Node
 
@@ -28,14 +30,18 @@ grep "VERSION=" release/arch/*/build*
 ```
 
 Download the file from https://github.com/jytou/NodeJs-Raspberry-Pi and run it (use sudo), for instance if the version of node is 8.9.1 (the current one):
->sudo ./Install-Node.sh 8.9.1
+```
+sudo ./Install-Node.sh 8.9.1
+```
 
 # Checking out and building Duniter
 
 Check out the project and build it with the correct branch number:
->git clone https://git.duniter.org/nodes/typescript/duniter.git -b 1.6
+```
+git clone https://git.duniter.org/nodes/typescript/duniter.git -b 1.6
 cd duniter/
 release/new_prerelease <version_number>
+```
 
 # Upload
 
