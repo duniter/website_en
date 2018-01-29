@@ -11,6 +11,7 @@ To produce an arm release file, there is currently the following requirement:
 - a raspberry pi (preferably 3),
 - raspbian jessie is the safest, if you produce the .deb file on more recent versions, it won't be installable on older ones, so avoid that!
 - git (apt-get install git)
+- zip (don't laugh, it is not included by default in raspbian) : sudo apt-get install zip
 - do not run anything else on that pi during the build, as it almost takes the 1 Gb and you may just run out of memory if you have other things running.
 
 # Installing yarn
