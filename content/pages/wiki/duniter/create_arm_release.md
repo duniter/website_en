@@ -41,7 +41,7 @@ Check out the project and build it with the correct branch number:
 ```
 git clone https://git.duniter.org/nodes/typescript/duniter.git -b 1.6
 cd duniter/
-release/new_prerelease.sh <version_number>
+release/scripts/build.sh make arm <version_number>
 ```
 
 # Upload
