@@ -20,7 +20,7 @@ In twenty eighteen we’ll be going into depth on the project and on how Duniter
 
 # A "libre" currency?
 
-Duniter’s goal is to create money following the principles of the Relative Theory of Money in which the currency is “minted” by way of a Universal Dividend (UD or DU for Dividende Universel in French). Because each vetted member is a co-creator, the money offers symmetry for all: whatever the age and whether alive or not. Each individual (companies do not create the ğ1 but can participate in the network) co-creates the same percentage of the total money supply in a given timeframe (40 years with the ğ1):
+Duniter’s goal is to create money following the principles of the [Relative Theory of Money](http://en.trm.creationmonetaire.info/) in which the currency is “minted” by way of a Universal Dividend (UD or DU for Dividende Universel in French). Because each vetted member is a co-creator, the money offers symmetry for all: whatever the age and whether alive or not. Each individual (companies do not create the ğ1 but can participate in the network) co-creates the same percentage of the total money supply in a given timeframe (40 years with the ğ1):
 
 - Money being co-created by every vetted member, it can be seen as **a universal income emerging from the creation of the currency itself.** Think of mining fees and mining rewards evenly distributed to each holder of a bitcoin wallet.
 - Money creation grants no privileges to some at the detriment of others, at any given time t or over larger periods of time.
