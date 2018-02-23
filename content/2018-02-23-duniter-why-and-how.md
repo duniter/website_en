@@ -6,7 +6,7 @@ Slug: duniter-why-how
 Authors: inso, thomasbromehead
 Thumbnail: /images/logos/duniter.png
 
-Last year (2017) will go in history as the first year of production of the ğ1 currency. 
+Last year (2017) will go in history as the first year of production of the [ğ1](https://g1.duniter.fr/) currency. 
 A milestone to be remembered as the community’s efforts had until then been almost entirely devoted to launching production of the world’s first 100% P2P “freedom-enabling” cryptocurrency. Looking back at 2017, we have grown from the initial 59 members to well over 600 as of early January of 2018. Local ğ1 networks have sprouted across France and in nearby French-speaking countries and the project is gathering growing attention and gaining momentum
 
 Here’s an example conversation we heard repeatedly in the last year.
