@@ -36,9 +36,9 @@ We’ll go into greater detail on this in the next articles.
 
 # A “Web of Trust”?
 
-In order to clearly identify each member and ensure that no-one receives two or more UDs we resorted to a WoT. We borrowed the term from [PGP](https://fr.wikipedia.org/wiki/Pretty_Good_Privacy), the famous open-source encryption software although our implementation is vastly different. The WoT is there to make sure a **real-world identity matches that on the network.**
+In order to clearly identify each member and ensure that no-one receives two or more UDs we resorted to a WoT. We borrowed the term from [PGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy), the famous open-source encryption software although our implementation is vastly different. The WoT is there to make sure a **real-world identity matches that on the network.**
 
-The WoT is woven by members themselves. The 59 "founding fathers" asserted that they knew each other in person and each then proceeded with “certifying” others around them. When a new member joins, he or she is given the right to certify future members. 
+The WoT is woven by members themselves. The 59 members who minted the genesis block asserted that they knew each other in person and each then proceeded with “certifying” others around them. When a new member joins, he or she is given the right to certify future members. 
 
 However the process **can’t go on forever** as the web has a maximum diameter. Each member only has a set number of certifications he can grant and cannot be “too far” from other members. If you’re interested in the fine print, I invite you to read this article from 2016 called “[Introduction to member management](https://duniter.org/en/introduction-a-la-toile-de-confiance/)” .
 
@@ -52,7 +52,7 @@ Duniter’s blockchain moves forward thanks to the nodes provided by members. Th
 
 Whether a member’s node is active or a mirror, **it always contributes to the co-creation of the money**. Members are invited to run a node if only to strengthen the blockchain and make sure that exchanges do happen. 
 
-To help distribute the cost of running nodes across all members a redistribution [service](https://remuniter.cgeek.fr/) was created. It works on a voluntary basis whereby members make a small donation which is then split between all nodes working on blocks at the given time. Bear in mind we are talking about money that already exists here. This service is not part of the heart of the money creation itself. 
+To help distribute the cost of running nodes across all members a redistribution [service](https://remuniter.cgeek.fr/) was created. It works on a voluntary basis whereby members make a small donation which is then split between all nodes working on blocks at the given time. Bear in mind we are talking about money that already exists here. This service is not a core feature of the money creation itself. 
 
 The more members contributing in hash power the sturdier the blockchain (less likely to be compromised).  The software must be as cost-efficient as possible to keep calculating costs at a minimum. We’ve therefore opted for a **personalized difficulty** tailored to each member. In practice this means that a member with a potent computer is slowed down so that even a Raspberry PI will be able to generate blocs in the future. We’ll cover this better in a coming article!
                                    
