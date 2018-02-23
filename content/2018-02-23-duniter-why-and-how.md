@@ -3,7 +3,7 @@ Date: 2018-02-23
 Category: duniter
 Tags: gitlab
 Slug: duniter-why-how
-Authors: inso
+Authors: inso, thomasbromehead
 Thumbnail: /images/logos/duniter.png
 
 Last year (2017) will go in history as the first year of production of the ğ1 currency. 
@@ -11,8 +11,8 @@ A milestone to be remembered as the community’s efforts had until then been al
 
 Here’s an example conversation we heard repeatedly in the last year.
 
-> - “What’s this Duniter cryptocurrency all about?”  
 - “What’s this Duniter cryptocurrency all about?”  
+- “It’s a crypto protocol with universal income (members co-create the money) working on blockchain with a Web of Trust, no ASIC frenzy here.”
 - “Wow that sounds very interesting! But how does it work then? How does it fight off Sybil attacks? How does the blockchain work? How hard is it to become a member?
 
 In twenty eighteen we’ll be going into depth on the project and on how Duniter works. We’ll kick off with a series of 12 articles which we hope will give everyone a better understanding of the Duniter protocol and its intricacies.
@@ -73,5 +73,5 @@ Duniter (DU – unit – er) is a way of saying "Machine calculating UDs". The s
 
 We hope you’ll enjoy the upcoming articles which will allow you to get better acquainted with the technology.  
 
->*“A currency is something that embodies value, can be exchanged on the basis of its >value, and can be transferred from place to place. In the world economy, the currency is >money, not a thing of value in itself but a carrier of value, a surrogate of value. >Finally, the currency must be fluid –easily flowing from place to place or situation to >situation- in order to bind the ecology together. It is what makes the ecology a single >system rather than a mere aggregation. If currency is hoarded, it is unproductive and >does nothing to increase the overall value of the ecology. In a balanced ecology, nothing >is wasted. Each actor has an essential freedom of action, and so is free to discover and >exploit locally available resources that would have been overlooked and thus wasted by a >system that relied upon centralized control. If you’re not fast you become food. And >there’s no begrudging the discarded waste that somebody else finds useful.”*
+>“A currency is something that embodies value, can be exchanged on the basis of its value, and can be transferred from place to place. In the world economy, the currency is money, not a thing of value in itself but a carrier of value, a surrogate of value. Finally, the currency must be fluid –easily flowing from place to place or situation to situation- in order to bind the ecology together. It is what makes the ecology a single system rather than a mere aggregation. If currency is hoarded, it is unproductive and does nothing to increase the overall value of the ecology. In a balanced ecology, nothing is wasted. Each actor has an essential freedom of action, and so is free to discover and exploit locally available resources that would have been overlooked and thus wasted by a system that relied upon centralized control. If you’re not fast you become food. And there’s no begrudging the discarded waste that somebody else finds useful.”
 Mickey McManus, [Trillions: Thriving in the Emerging Information Ecology](http://trillions.maya.com/), 25/09/2012.
