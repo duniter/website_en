@@ -1,4 +1,4 @@
-Title: Duniter, why and how ?
+Title: Duniter, why and how?
 Date: 2018-02-23
 Category: duniter
 Tags: gitlab
@@ -18,7 +18,7 @@ Here’s an example conversation we heard repeatedly in the last year.
 In twenty eighteen we’ll be going into depth on the project and on how Duniter works. We’ll kick off with a series of 12 articles which we hope will give everyone a better understanding of the Duniter protocol and its intricacies.
 
 
-# A "libre" currency?  ?
+# A "libre" currency?
 
 Duniter’s goal is to create money following the principles of the Relative Theory of Money in which the currency is “minted” by way of a Universal Dividend (UD or DU for Dividende Universel in French). Because each vetted member is a co-creator, the money offers symmetry for all: whatever the age and whether alive or not. Each individual (companies do not create the ğ1 but can participate in the network) co-creates the same percentage of the total money supply in a given timeframe (40 years with the ğ1):
 
