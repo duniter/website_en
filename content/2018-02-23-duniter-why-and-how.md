@@ -40,7 +40,7 @@ In order to clearly identify each member and ensure that no-one receives two or 
 
 The WoT is woven by members themselves. The 59 "founding fathers" asserted that they knew each other in person and each then proceeded with “certifying” others around them. When a new member joins, he or she is given the right to certify future members. 
 
-However the process **can’t go on forever** as the web has a maximum diameter. Each member only has a set number of certifications he can grant and cannot be “too far” from other members. If you’re interested in the fine print, I invite you to read this article from 2016 called “[Introduction to member management](https://duniter.org/fr/introduction-a-la-toile-de-confiance/)” .
+However the process **can’t go on forever** as the web has a maximum diameter. Each member only has a set number of certifications he can grant and cannot be “too far” from other members. If you’re interested in the fine print, I invite you to read this article from 2016 called “[Introduction to member management](https://duniter.org/en/introduction-a-la-toile-de-confiance/)” .
 
 
 > *The WoT is the aggregate of all links between human beings. I know someone who knows someone. Legend has it that we are only 5 levels from each other.*  
