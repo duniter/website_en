@@ -3,16 +3,16 @@ Date: 2018-02-23
 Category: duniter
 Tags: gitlab
 Slug: duniter-why-how
-Authors: inso
+Authors: inso, thomasbromehead
 Thumbnail: /images/logos/duniter.png
 
-Last year (2017) will go in history as the first year of production of the ğ1 currency. 
+Last year (2017) will go in history as the first year of production of the [ğ1](https://g1.duniter.fr/) currency. 
 A milestone to be remembered as the community’s efforts had until then been almost entirely devoted to launching production of the world’s first 100% P2P “freedom-enabling” cryptocurrency. Looking back at 2017, we have grown from the initial 59 members to well over 600 as of early January of 2018. Local ğ1 networks have sprouted across France and in nearby French-speaking countries and the project is gathering growing attention and gaining momentum
 
 Here’s an example conversation we heard repeatedly in the last year.
 
-> - “What’s this Duniter cryptocurrency all about?”  
 - “What’s this Duniter cryptocurrency all about?”  
+- “It’s a crypto protocol with universal income (members co-create the money) working on blockchain with a Web of Trust, no ASIC frenzy here.”
 - “Wow that sounds very interesting! But how does it work then? How does it fight off Sybil attacks? How does the blockchain work? How hard is it to become a member?
 
 In twenty eighteen we’ll be going into depth on the project and on how Duniter works. We’ll kick off with a series of 12 articles which we hope will give everyone a better understanding of the Duniter protocol and its intricacies.
@@ -20,7 +20,7 @@ In twenty eighteen we’ll be going into depth on the project and on how Duniter
 
 # A "libre" currency?
 
-Duniter’s goal is to create money following the principles of the Relative Theory of Money in which the currency is “minted” by way of a Universal Dividend (UD or DU for Dividende Universel in French). Because each vetted member is a co-creator, the money offers symmetry for all: whatever the age and whether alive or not. Each individual (companies do not create the ğ1 but can participate in the network) co-creates the same percentage of the total money supply in a given timeframe (40 years with the ğ1):
+Duniter’s goal is to create money following the principles of the [Relative Theory of Money](http://en.trm.creationmonetaire.info/) in which the currency is “minted” by way of a Universal Dividend (UD or DU for Dividende Universel in French). Because each vetted member is a co-creator, the money offers symmetry for all: whatever the age and whether alive or not. Each individual (companies do not create the ğ1 but can participate in the network) co-creates the same percentage of the total money supply in a given timeframe (40 years with the ğ1):
 
 - Money being co-created by every vetted member, it can be seen as **a universal income emerging from the creation of the currency itself.** Think of mining fees and mining rewards evenly distributed to each holder of a bitcoin wallet.
 - Money creation grants no privileges to some at the detriment of others, at any given time t or over larger periods of time.
@@ -40,7 +40,7 @@ In order to clearly identify each member and ensure that no-one receives two or 
 
 The WoT is woven by members themselves. The 59 "founding fathers" asserted that they knew each other in person and each then proceeded with “certifying” others around them. When a new member joins, he or she is given the right to certify future members. 
 
-However the process **can’t go on forever** as the web has a maximum diameter. Each member only has a set number of certifications he can grant and cannot be “too far” from other members. If you’re interested in the fine print, I invite you to read this article from 2016 called “[Introduction to member management](https://duniter.org/fr/introduction-a-la-toile-de-confiance/)” .
+However the process **can’t go on forever** as the web has a maximum diameter. Each member only has a set number of certifications he can grant and cannot be “too far” from other members. If you’re interested in the fine print, I invite you to read this article from 2016 called “[Introduction to member management](https://duniter.org/en/introduction-a-la-toile-de-confiance/)” .
 
 
 > *The WoT is the aggregate of all links between human beings. I know someone who knows someone. Legend has it that we are only 5 levels from each other.*  
@@ -73,5 +73,5 @@ Duniter (DU – unit – er) is a way of saying "Machine calculating UDs". The s
 
 We hope you’ll enjoy the upcoming articles which will allow you to get better acquainted with the technology.  
 
->*“A currency is something that embodies value, can be exchanged on the basis of its >value, and can be transferred from place to place. In the world economy, the currency is >money, not a thing of value in itself but a carrier of value, a surrogate of value. >Finally, the currency must be fluid –easily flowing from place to place or situation to >situation- in order to bind the ecology together. It is what makes the ecology a single >system rather than a mere aggregation. If currency is hoarded, it is unproductive and >does nothing to increase the overall value of the ecology. In a balanced ecology, nothing >is wasted. Each actor has an essential freedom of action, and so is free to discover and >exploit locally available resources that would have been overlooked and thus wasted by a >system that relied upon centralized control. If you’re not fast you become food. And >there’s no begrudging the discarded waste that somebody else finds useful.”*
+>“A currency is something that embodies value, can be exchanged on the basis of its value, and can be transferred from place to place. In the world economy, the currency is money, not a thing of value in itself but a carrier of value, a surrogate of value. Finally, the currency must be fluid –easily flowing from place to place or situation to situation- in order to bind the ecology together. It is what makes the ecology a single system rather than a mere aggregation. If currency is hoarded, it is unproductive and does nothing to increase the overall value of the ecology. In a balanced ecology, nothing is wasted. Each actor has an essential freedom of action, and so is free to discover and exploit locally available resources that would have been overlooked and thus wasted by a system that relied upon centralized control. If you’re not fast you become food. And there’s no begrudging the discarded waste that somebody else finds useful.”
 Mickey McManus, [Trillions: Thriving in the Emerging Information Ecology](http://trillions.maya.com/), 25/09/2012.
