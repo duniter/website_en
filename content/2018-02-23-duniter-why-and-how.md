@@ -71,7 +71,5 @@ Duniter (DU – unit – er) is a way of saying "Machine calculating UDs". The s
 
 # Coming soon...
 
-We hope you’ll enjoy the upcoming articles which will allow you to get better acquainted with the technology.  
+We hope you’ll enjoy the upcoming articles which will allow you to get better acquainted with the technology.
 
->“A currency is something that embodies value, can be exchanged on the basis of its value, and can be transferred from place to place. In the world economy, the currency is money, not a thing of value in itself but a carrier of value, a surrogate of value. Finally, the currency must be fluid –easily flowing from place to place or situation to situation- in order to bind the ecology together. It is what makes the ecology a single system rather than a mere aggregation. If currency is hoarded, it is unproductive and does nothing to increase the overall value of the ecology. In a balanced ecology, nothing is wasted. Each actor has an essential freedom of action, and so is free to discover and exploit locally available resources that would have been overlooked and thus wasted by a system that relied upon centralized control. If you’re not fast you become food. And there’s no begrudging the discarded waste that somebody else finds useful.”
-Mickey McManus, [Trillions: Thriving in the Emerging Information Ecology](http://trillions.maya.com/), 25/09/2012.
