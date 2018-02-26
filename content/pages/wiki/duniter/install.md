@@ -53,6 +53,7 @@ You will control your instance using command line tools, but if you want you cou
 Go to the [release page](https://git.duniter.org/nodes/typescript/duniter/wikis/Releases) to get a link to the last stable release.
 
 Choose the file you need:
+
 * Files for Ubuntu and Debian are terminated by the `.deb` extension.
 * Choose either the file which name is containing `desktop` or `server` for respectively _desktop_ or _server_ version.
 * Choose the file matching your architecture. If you don't know what it is, you probably need version x64.
@@ -62,6 +63,7 @@ Choose the file you need:
 ### Install Duniter
 
 In order to process installation:
+
 * If you are using Ubuntu, double-click on the downloaded file.
 * If you are using Debian, open the downloaded file with `GDebi` option:
   <br>
@@ -74,6 +76,7 @@ In order to process installation:
 ### Start application
 
 In order to start the _desktop_ version:
+
 * With Ubuntu, use _Dash_ to look for _Duniter_ and click on it to launch the software:
   <br>
   <img src="../../../images/wiki/duniter/install/ubuntu_dash.png" width="536" height="246">
@@ -95,7 +98,7 @@ To launch the daemon (_server_ version):
 
 In order for the node to be automatically launched at computer startup, execute the command:
 
-    systemctl enable duniter.service
+    sudo systemctl enable duniter.service
 
 By default, the server will start as `duniter` user in the directory `/var/lib/duniter`.
 
@@ -109,9 +112,11 @@ Adjustable environment variables for this service are:
 | Variable | Description |
 |----------|-------------|
 | `DUNITER_WEB` | Must be empty for classical startup, or _web_ to start the web interface |
-| `DUNITER_HOME` | Server file location, default: `/var/lib/duniter` |
+| `DUNITER_HOME` | Server file location, default: `/var/lib/duniter/.config/duniter` |
 | `DUNITER_DATA` | Name (location) of the database, default: `duniter_default` |
 | `DUNITER_OPTS` | Any other option to be given to command line at startup |
+
+> Note: up to version 1.6.17, default value for `DUNITER_HOME` was `/var/lib/duniter`.
 
 ## Gentoo 64 bits
 
