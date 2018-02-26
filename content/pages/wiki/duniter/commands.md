@@ -72,6 +72,11 @@ Disables P2P downloading and downloading of network node listing.
     2017-04-10T08: 32: 26 + 02: 00 - debug: dl starts from 0
     2017-04-10T08: 32: 26 + 02: 00 - info: Getting chunck # 36/36 from 9000 to 9023 on peer g1.duniter.org:10901
     2017-04-10T08: 32: 26 + 02: 00 - info: GOT chunck # 36/36 from 9000 to 9023 on peer g1.duniter.org:10901
+
+#### Option `--onlypeers`
+
+Retrieves only peer information, does not retrieve block information.
+
 #### Option `--cautious`
 
 Force the careful verification of the validity of each block in relation to the rules of the protocol.
