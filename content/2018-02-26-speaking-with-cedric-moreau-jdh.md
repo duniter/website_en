@@ -1,12 +1,11 @@
-Title: Speaking with Cédric Moreau, creator of the Duniter protocol.
+Title: Speaking with Cédric Moreau, software developer of "libre" cryptocurrencies.
 Date: 2018-02-26
 Category: duniter
 Tags: gitlab
 Slug: cedric-moreau-duniter-protocol-inventor
 Authors: thomasbromehead
 Thumbnail: /images/logos/duniter.png
-
-#Speaking with Cédric Moreau, software developer of "libre" cryptocurrencies.  
+  
 **Original french version by par Carl Chenet, [read it here](https://blog.journalduhacker.net/index.php?article100/entretien-avec-cedric-moreau-createur-d-outils-pour-les-monnaies-libres) - 13 avril 2017 -** 
  
 ####JDH: Hello Cédric, first and foremost I’d like to thank you for sparing some time for this interview with the Journal du hacker. Can you tell us who you are?
