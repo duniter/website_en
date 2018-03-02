@@ -7,14 +7,14 @@ Authors: thomasbromehead
 Thumbnail: /images/logos/duniter.png
 
 #Speaking with Cédric Moreau, software developer of "libre" cryptocurrencies.  
-**Original french version by par Carl Chenet, [read it here](https://blog.journalduhacker.net/index.php?article100/entretien-avec-cedric-moreau-createur-d-outils-pour-les-monnaies-libres) - 13 avril 2017 -** 
+**Original french version by Carl Chenet (04/17), [read it here](https://blog.journalduhacker.net/index.php?article100/entretien-avec-cedric-moreau-createur-d-outils-pour-les-monnaies-libres) -** 
  
 ####JDH: Hello Cédric, first and foremost I’d like to thank you for sparing some time for this interview with the Journal du hacker. Can you tell us who you are?
 
 **Cédric :** Hello Carl, thanks for the interview. My name is Cédric Moreau aka **cgeek** on some forums. I’m 29 and an engineer in IT and automation. I live in Rennes with my girlfriend and my cat.
 I started my career with 3 years as an employee in a tech company in which I was in charge of maintaining and later producing Java and JavaEE applications. In 2015, my third year there, I started working on my favorite language at the time, namely Javascript on Node.js.
 I launched my own business **Art et Zerty** a year ago, in March 2016. I still work for some techs but feel more independent!
-More interesting to you is that I started developing [Duniter](https://github.com/duniter/duniter) in the summer of 2013. It’s the world’s first software for producing "libre" decentralized cryptocurrencies and is open-source, it goes without saying. I am the inventor and main developer to this day. It has been my life’s common thread for the last 4 years and will probably remain so for the rest it.
+More interesting to you is that I started developing [Duniter](https://github.com/duniter/duniter) in the summer of 2013. It’s the world’s first software for producing "libre" decentralized cryptocurrencies and is libre -under GPL license, meaning the project cannot be privatized whereas open-source MIT projects can be), it goes without saying. I am the inventor and main developer to this day. It has been my life’s common thread for the last 4 years and will probably remain so for the rest it.
 
 ####JDH: Money seems to have made significant inroads into IT in the last few years. [Bitcoin](https://bitcoin.org) comes straight to mind as well as the whole cryptocurrency theme in general. Can you tell us what you mean by "libre" money and explain the use of Duniter?
 
@@ -58,7 +58,7 @@ Silkaj is the latest kid on the block. It’s an online command line interface w
 
 ####JDH: That’s terrific, I see the project is really gaining traction. What use do you see for the Ğ1 and what’s its role in society in your wildest dreams?
 
-**Cédric :** In my wildest dreams there’s a million of us in the WoT. Quite a small number when you think of it, 1 in 67 French. To think that a million users are creating their own money every day and are deciding what has value instead of the banker is truly exciting. What if 10% of them are developing open-source software? What an amazing springboard to innovation that would be! Think of so many other value drivers currently stifled by innovation limited to the bounds of banks’ walled gardens.
+**Cédric :** In my wildest dreams there’s a million of us in the WoT. Quite a small number when you think of it, 1 in 67 French. To think that a million users are creating their own money every day and are deciding what has value instead of the banker is truly exciting. What if 10% of them are developing libre software? What an amazing springboard to innovation that would be! Think of so many other value drivers currently stifled by innovation limited to the bounds of banks’ walled gardens.
  
 I can’t foresee what use humans would make of a "libre" money because I don’t know what they want to do with it in the end. We each have our opinion on the question and that’s the very essence of a "libre" money; to make us realize that we’re not in any position to say what "production" is or isn’t because that’s making a relative statement, not an objective one. I view open-source as offering so much more than proprietary solutions. Not everyone agrees on that of course. So what happens when you cut the leash and let humans indulge some of their time in creating the values that they themselves consider to be "production", where would that take us? 
 Playing Ğeconomicus offers a glimpse into that. It lets players simulate a "libre" money ecosystem over a timeframe of 80 years, the average lifespan in Europe. I won’t spill out the beans here, I’d rather let those interested search for the results online or even play it themselves. All I’ll tell you is that playing is really eye-opening and I love the new horizon it offers us.
