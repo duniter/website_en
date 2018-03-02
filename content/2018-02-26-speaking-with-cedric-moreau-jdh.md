@@ -1,4 +1,4 @@
-Title: Speaking with Cédric Moreau, creator of the Duniter protocol.
+Title: Speaking with Cédric Moreau, software developer of "libre" cryptocurrencies.
 Date: 2018-02-26
 Category: duniter
 Tags: gitlab
@@ -6,9 +6,9 @@ Slug: cedric-moreau-duniter-protocol-inventor
 Authors: thomasbromehead
 Thumbnail: /images/logos/duniter.png
 
-#Speaking with Cédric Moreau, software developer of "libre" cryptocurrencies.  
-**Original french version by Carl Chenet (04/17), [read it here](https://blog.journalduhacker.net/index.php?article100/entretien-avec-cedric-moreau-createur-d-outils-pour-les-monnaies-libres) -** 
- 
+
+**Original french version by Carl Chenet (04/17), [read it here](https://blog.journalduhacker.net/index.php?article100/entretien-avec-cedric-moreau-createur-d-outils-pour-les-monnaies-libres) -**
+
 ####JDH: Hello Cédric, first and foremost I’d like to thank you for sparing some time for this interview with the Journal du hacker. Can you tell us who you are?
 
 **Cédric :** Hello Carl, thanks for the interview. My name is Cédric Moreau aka **cgeek** on some forums. I’m 29 and an engineer in IT and automation. I live in Rennes with my girlfriend and my cat.
@@ -30,8 +30,9 @@ Words have special weight here and I have to make them extra clear. The word "li
 The meaning of the 1st rule is that a currency chosen by one user cannot be imposed to everyone else.
 In the same way, the logical trap of thinking that a "libre" money will **self-enforce** these rules is wrong. Don’t think for example that adopting a "libre" money would entitle you to rob your neighbour’s gold. 
 A money can only be called "libre" if it **respects** these 4 guiding principles, in the sense that its monetary code doesn’t infringe them. The euro for example is not a "libre" currency because it has legal tender and is therefore imposed to citizens by a positive order. Bitcoin and gold are not "libre" either because production is in the hands of miners only, rules 3,4 and 5 are not observed.
-Our "libre" money should be understood as applying the principles of the [Relative Theory of Money](en.trm.creationmonetaire.info/), the work of  fellow French engineer Stéphane Laborde and available under GPLv3 license. I suggest that everybody reads it, especially those who think a "libre" money is one that could be created by anyone. The RTM is our starting point.
-So what’s the role of Duniter in all this ? It’s software that enables the production of "libre" money. In terms of Object-Oriented Programming we can say that Duniter **implements** the "libre" money as defined by the RTM. 
+Our "libre" money should be understood as applying the principles of the [Relative Theory of Money](https://en.trm.creationmonetaire.info/), the work of  fellow French engineer Stéphane Laborde and available under GPLv3 license. I suggest that everybody reads it, especially those who think a "libre" money is one that could be created by anyone. The RTM is our starting point.
+
+So what’s the role of Duniter in all this ? It’s a software that enables the production of "libre" money. In terms of Object-Oriented Programming we can say that Duniter **implements** the "libre" money as defined by the RTM. 
  
 ####JDH: So if I’m right Duniter is the toolbox to launch A (and not THE) "libre" money ? I imagine that the launch of an actual "libre" money is your goal then? Where are you at with this?
 
@@ -59,7 +60,7 @@ Silkaj is the latest kid on the block. It’s an online command line interface w
 ####JDH: That’s terrific, I see the project is really gaining traction. What use do you see for the Ğ1 and what’s its role in society in your wildest dreams?
 
 **Cédric :** In my wildest dreams there’s a million of us in the WoT. Quite a small number when you think of it, 1 in 67 French. To think that a million users are creating their own money every day and are deciding what has value instead of the banker is truly exciting. What if 10% of them are developing libre software? What an amazing springboard to innovation that would be! Think of so many other value drivers currently stifled by innovation limited to the bounds of banks’ walled gardens.
- 
+
 I can’t foresee what use humans would make of a "libre" money because I don’t know what they want to do with it in the end. We each have our opinion on the question and that’s the very essence of a "libre" money; to make us realize that we’re not in any position to say what "production" is or isn’t because that’s making a relative statement, not an objective one. I view open-source as offering so much more than proprietary solutions. Not everyone agrees on that of course. So what happens when you cut the leash and let humans indulge some of their time in creating the values that they themselves consider to be "production", where would that take us? 
 Playing Ğeconomicus offers a glimpse into that. It lets players simulate a "libre" money ecosystem over a timeframe of 80 years, the average lifespan in Europe. I won’t spill out the beans here, I’d rather let those interested search for the results online or even play it themselves. All I’ll tell you is that playing is really eye-opening and I love the new horizon it offers us.
 With only 73 members (now XXX) we still have a long way to go. But then again there were only 59 of us a month ago, so that’s a 23% growth. If it went on like this for three years we could reach the same number of wallets that bitcoin took 5 years to reach. I’m an optimist and like to think that we’ll get there. To the Moon!
