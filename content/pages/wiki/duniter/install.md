@@ -149,7 +149,55 @@ For other distributions, there is a binary file containing the _desktop_ version
 
 ## Docker
 
-Unavailable for the moment.
+> Note: Docker must be installed on your computer in order to create a Duniter container.
+
+> Note: only the Duniter _server_ version exists on a Docker image.
+
+To get the image of the last version:
+
+    docker pull duniter/duniter-ts
+
+It is then possible to create the container with:
+
+    docker run -d -p127.0.0.1:9220:9220 -p10901:10901 -p20901:20901 --name duniter duniter/duniter-ts
+
+Without any other option, the container will automatically execute `duniter direct_webstart`. The `-d` in the command line make the container being executed in the background (daemon). The `--name` option is used to give a unique name to the container, which will then be easier to use for the next commands. The `-p` options are used to connect in-container ports with the host ones:
+
+* port 9220 is for the web UI; specifying the IP address 127.0.0.1 (localhost) will prevent an external computer from accessing this node configuration.
+* port 10901 is used for BMA access; exporting this port is then only necessary if you activate BMA.
+* port 20901 is used for WS2P access.
+
+> Note : do not use both daemon options for Duniter and Docker (for example: `docker run -d duniter/duniter-ts webstart`) or the container will immediately stop.
+
+Once the node is started, it is accessable either using web UI, going to http://localhost:9220, either using command line:
+
+    docker exec -it duniter duniter sync g1.duniter.fr 443
+
+In the above command, the first `duniter` is the name given to the container at creation time, while the second one is the executed command.
+
+You can stop and restart the container using standard Docker commands:
+
+    docker stop duniter
+    docker start duniter
+
+### Using a keyfile
+
+If the file `/etc/duniter/keys.yml` is found on the container, it is used as keyfile for the node identity. For this file is visible by Duniter, it must be granted appropriate access rights. If the file `keys.yml` is for example on the host in the `~/duniter/conf` directory, here are the commands to execute for it is used:
+
+    chown -R 1111:1111 ~/duniter/conf
+    chmod -R 644 ~/duniter/conf
+    docker run -d -p127.0.0.1:9220:9220 -p10901:10901 -p20901:20901 --mount src=~/duniter/conf,dst=/etc/duniter --name duniter duniter/duniter-ts
+
+> Note: some of the above commands need “root” access, usage of `sudo` may be required.
+
+### Configuration external storage
+
+By default, configuration and database are stored on the container. It is however possible to store them on the host computer. For this to be done, folder `/var/lib/duniter` must be shared with appropriate rights. For example, for the data to be recorded in the `~/duniter/data` directory, here are the commands to be executed:
+
+    chown -R 1111:1111 ~/duniter/data
+    docker run -d -p127.0.0.1:9220:9220 -p10901:10901 -p20901:20901 --mount src=~/duniter/data,dst=/var/lib/duniter --name duniter duniter/duniter-ts
+
+> Note: some of the above commands need “root” access, usage of `sudo` may be required.
 
 ## Manual building
 
