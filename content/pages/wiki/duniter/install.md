@@ -21,6 +21,7 @@ This document is a little guide to install & deploy your own Duniter instance to
     * [Other distributions](#other-distributions)
     * [Docker](#docker)
     * [Manual building](#manual-building)
+    * [Automatic startup](#automatic-startup)
 * [Windows](#windows)
 * [MacOS](#macos)
 
@@ -92,31 +93,7 @@ To launch the daemon (_server_ version):
 
 > You can follow [the command line user's guide](../commands) in order to use your server node.
 
-### Enable automatic startup
-
-> Automatic startup is only available on _server_ versions after 1.6.15.
-
-In order for the node to be automatically launched at computer startup, execute the command:
-
-    sudo systemctl enable duniter.service
-
-By default, the server will start as `duniter` user in the directory `/var/lib/duniter`.
-
-You can customize the service behavior using [drop-ins][drop-ins](https://coreos.com/os/docs/latest/using-systemd-drop-in-units.html). For example, in order to start with web interface, you can create a file named `/etc/systemd/system/duniter.service.d/10-web.conf` with the following content:
-
-    [Service]
-    Environment="DUNITER_WEB=web"
-
-Adjustable environment variables for this service are:
-
-| Variable | Description |
-|----------|-------------|
-| `DUNITER_WEB` | Must be empty for classical startup, or _web_ to start the web interface |
-| `DUNITER_HOME` | Server file location, default: `/var/lib/duniter/.config/duniter` |
-| `DUNITER_DATA` | Name (location) of the database, default: `duniter_default` |
-| `DUNITER_OPTS` | Any other option to be given to command line at startup |
-
-> Note: up to version 1.6.17, default value for `DUNITER_HOME` was `/var/lib/duniter`.
+The _server_ version node for Ubuntu/Debian is usable with [automatic startup](#automatic-startup) (_Systemd_).
 
 ## Gentoo 64 bits
 
@@ -132,6 +109,8 @@ The following _USE flags_ allow you to decide what will be built:
 |------|-------------|
 | `desktop` | Build and install the _desktop_ version instead of the _server_ one |
 | `gui` | Add the GUI (mandatory for _desktop_ version, add the web interface for _server_ version) |
+
+The _server_ version node for Gentoo can also be [automatically started](#automatic-startup).
 
 ## YunoHost
 
@@ -254,6 +233,51 @@ Go to the [release page](https://git.duniter.org/nodes/typescript/duniter/wikis/
 
     bin/duniter plug duniter-ui@1.4.x
     sed -i "s/duniter\//..\/..\/..\/..\//g" node_modules/duniter-ui/server/controller/webmin.js
+
+## Automatic startup
+
+> Automatic startup is only available on _server_ versions.
+
+Since version 1.6.15, automatic statup scripts are delivered for distribution based on _Systemd_ or _OpenRC_.
+
+In order for the node to be automatically launched at computer startup, execute the following command with administrator rights (`sudo`):
+
+* for _Systemd_:
+
+    systemctl enable duniter.service
+
+* for _OpenRC_:
+
+    rc-update add duniter default
+
+By default, the server will start as `duniter` user in the directory `/var/lib/duniter`.
+
+You can customize the service behavior:
+
+* for _Systemd_, using [drop-ins](https://coreos.com/os/docs/latest/using-systemd-drop-in-units.html) — for example, in order to start with web interface, you can create a file named `/etc/systemd/system/duniter.service.d/10-web.conf` with the following content:
+
+    [Service]
+    Environment="DUNITER_WEB=web"
+
+* for _OpenRC_, by modifying the `/etc/conf.d/duniter` file.
+
+Adjustable environment variables for this service are:
+
+| Variable | Type | Description |
+|----------|------|-------------|
+| `DUNITER_WEB` | _Systemd_ | Must be empty for classical startup, or _web_ to start the web interface |
+| `DUNITER_WEB` | _OpenRC_ | Start web interface if the value is defined an evaluate to true (`yes`, for example) |
+| `DUNITER_HOME` | all | Server file location, default: `/var/lib/duniter/.config/duniter` |
+| `DUNITER_DATA` | all | Name (location) of the database, default: `duniter_default` |
+| `DUNITER_KEYS` | _OpenRC_ | If this variable is defined, it must indicate the location of a key file for node identity |
+| `DUNITER_WEB_HOST` | _OpenRC_ | This variable allow to modify default host name for web interface |
+| `DUNITER_WEB_PORT` | _OpenRC_ | This variable allow to modify default port for web interface |
+| `DUNITER_GROUP` | _OpenRC_ | Name of the group with which node is executed, default: `duniter` |
+| `DUNITER_USER` | _OpenRC_ | Name of the user with which node is executed, default: `duniter` |
+| `DUNITER_OPTS` | _Systemd_ | Any other option to be given to command line at startup |
+| `DUNITER_SSD_OPTIONS` | _OpenRC_ | Any other option to be given to `start-stop-daemon` command line |
+
+> Note: up to version 1.6.17 (_Systemd_) or 1.6.22 (_OpenRC_), default value for `DUNITER_HOME` was `/var/lib/duniter`.
 
 # Windows
 
