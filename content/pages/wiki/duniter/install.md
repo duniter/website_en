@@ -244,11 +244,11 @@ In order for the node to be automatically launched at computer startup, execute 
 
 * for _Systemd_:
 
-    systemctl enable duniter.service
+        systemctl enable duniter.service
 
 * for _OpenRC_:
 
-    rc-update add duniter default
+        rc-update add duniter default
 
 By default, the server will start as `duniter` user in the directory `/var/lib/duniter`.
 
@@ -256,8 +256,8 @@ You can customize the service behavior:
 
 * for _Systemd_, using [drop-ins](https://coreos.com/os/docs/latest/using-systemd-drop-in-units.html) — for example, in order to start with web interface, you can create a file named `/etc/systemd/system/duniter.service.d/10-web.conf` with the following content:
 
-    [Service]
-    Environment="DUNITER_WEB=web"
+        [Service]
+        Environment="DUNITER_WEB=web"
 
 * for _OpenRC_, by modifying the `/etc/conf.d/duniter` file.
 
